@@ -10,7 +10,7 @@ int main() {
     printf("Direccion de memoria almacenada en el puntero: %p\n", punteroVariableInt);
     printf("Direccion de memoria de la variableInt: %p\n", &variableInt);
     printf("Direccion de memoria del puntero: %p\n", &punteroVariableInt);
-    printf("Tamaño de la variable: %d Bytes\n\n", sizeof(variableInt));
+    printf("Tamaño de la variableInt: %d Bytes\n\n", sizeof(variableInt));
     
     char variableChar = 'T';
     char * punteroVariableChar = &variableChar;
@@ -19,7 +19,9 @@ int main() {
     printf("Direccion de memoria almacenada en el puntero: %p\n", punteroVariableChar);
     printf("Direccion de memoria de la variableChar: %p\n", &variableChar);
     printf("Direccion de memoria del puntero: %p\n", &punteroVariableChar);
-    printf("Tamaño de la variable: %d Bytes\n", sizeof(variableChar));
+    printf("Tamaño de la variableChar: %d Bytes\n", sizeof(variableChar));
+
+    getchar();
     
     return 0;
 }
